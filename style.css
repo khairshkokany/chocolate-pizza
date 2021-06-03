@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Pacifico', cursive;
+
+    src: url(https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap);
+   }
+
+*{
+
+box-sizing: border-box;
+
+}
+
+body{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+}
+
+
+header{
+    position: relative;
+}
+
+#headerElem {
+padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+#headerElem h1{
+padding-bottom: 10px;
+font-family: 'Pacifico';
+}
+
+#headerElem h3{
+    padding-bottom: 10px;
+    }
+
+#liElem li{
+
+    display: inline-block;
+}
+#liElem{
+
+
+    float: right;
+}
+
+.wifi{
+
+    padding-left: 10px;
+    top: -30;
+}
+
+
+nav {
+
+    float: right;
+}
+
+#lp {
+    background-image: url("img/hr-img.png");
+    background-repeat: repeat;
+    width: 1320px;
+
+    height: 15px;
+   margin-bottom: 10px;
+
+   }
+
+
+
+
+
+
+#print{
+
+    float: right;
+}
+
+
+#title{
+
+    float: left;
+    
+}
+
+
+.imge{
+
+margin-top: 70px;
+margin-bottom: 50px;
+
+}
+
+#para p{
+
+    text-indent: 50px;
+    padding-bottom: 50px;
+}
+
+
+#label{
+
+    background-image: url(img/list-bg.png);
+    margin-bottom: 10px;
+}
+
+#firstlab{
+
+padding-left: 50px;
+padding-top: 50px;
+
+}
+
+.labin{
+
+    float: right;
+}
+
+
+
+
+#lastfoot{
+
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+#lastfoot img {
+
+    float: left;
+    margin-bottom: 50px;
+}
+
+#lastfoot h2, #Lastfoot h3{
+
+    display: inline-block;
+}
+
+#butt {
+    
+    float: right;
+}
+
+
+#lastfoot h2{
+
+padding-bottom: 15px;
+padding-left: 15px;
+font-family: fantasy;
+}
+
+#lastfoot h3{
+
+    padding-left: 85px;
+    margin-right: 50px;
+}
+
+#butt button{
+    background-color: rgb(38, 168, 59);     
+    border: none;    color: white;   
+     padding: 10px 30px;   
+      text-align: center;    
+      display: inline-block;
+    display: inline-block;
+}
+
+
+#footer {
+
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+footer img {
+    margin-right:93px;
+    margin-bottom: 20px;
+}
